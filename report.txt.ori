@@ -1,0 +1,74 @@
+Test 102 failed:
+1c1 < main:case1,case2,test --- > main:case1,case2,skip,test
+Test 106 failed:
+0a1 > main:b,c,d,e,f,g,h,i,j,k,l,m,n,o
+Test 113 failed:
+1c1 < main:c --- > main:a,b,c
+Test 114 failed:
+0a1 > main:a,b,c,x,y,z
+Test 115 failed:
+0a1 > main:a,b,c,d,w,x,y,z
+Test 117 failed:
+1c1 < main:c,b,a,i --- > main:c,d,b,a,i
+Test 22 failed:
+1c1 < foo:b --- > foo:a,b
+Test 25 failed:
+0a1 > main:a,b,c,d,e,f
+Test 26 failed:
+1c1 < main:c,d,f --- > main:a,b,c,d,e,f
+Test 300 failed:
+1c1 < foo:a --- > foo:a,b
+Test 301 failed:
+1c1 < main:y,b --- > main:y
+Test 302 failed:
+1c1 < main:c --- > main:a,b,c,r1,r2,r3 3c3 < foo1:k --- > foo1:x,k
+Test 303 failed:
+1c1 < main:j,k --- > main:i,j,k,a
+Test 304 failed:
+1c1 < fun:m --- > fun:k,m
+Test 305 failed:
+1c1 < testif:a2,a3,a4 --- > testif:a1,a2,a3,a4
+Test 306 failed:
+1c1 < main:j,k --- > main:i,j,k
+Test 307 failed:
+1a2 > foo:a,b
+Test 308 failed:
+0a1 > main:i,j,k,a
+Test 30 failed:
+1c1 < main:d,f --- > main:a,b,d,f
+Test 32 failed:
+1c1 < main:a,b,e,f --- > main:a,b,c,d,e,f
+Test 34 failed:
+1c1 < main:a,b,e,f --- > main:a,b,c,d,e,f
+Test 3 failed:
+1c1 < main:c --- > main:a,b,c,r1,r2,r3 3c3 < foo1:k --- > foo1:x,k
+Test 40 failed:
+1c1 < main:x,k,r --- > main:x,y,z,k,r,j
+Test 41 failed:
+1c1 < main:y,z,p,p --- > main:x,y,z,p,p
+Test 52 failed:
+1c1 < foo:a --- > foo:a,b
+Test 53 failed:
+1c1 < main:y,b --- > main:y
+Test 54 failed:
+1c1 < main:c --- > main:a,b,c,r1,r2,r3 3c3 < foo1:k --- > foo1:x,k
+Test 55 failed:
+1c1 < main:j,k --- > main:i,j,k,a
+Test 56 failed:
+1c1 < fun:m --- > fun:k,m
+Test 57 failed:
+1c1 < testif:a2,a3,a4 --- > testif:a1,a2,a3,a4
+Test 58 failed:
+1c1 < main:j,k --- > main:i,j,k
+Test 59 failed:
+1a2 > foo:a,b
+Test 5 failed:
+0a1 > main:y
+Test 60 failed:
+0a1 > main:i,j,k,a
+Test 64 failed:
+2c2 < global:b --- > global:b,a
+Test 6 failed:
+1c1 < main:b --- > main:b,b
+Test 8 failed:
+0a1 > main:a
